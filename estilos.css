@@ -1,0 +1,268 @@
+body {
+    background: #181818;
+    color: #fff;
+    line-height: 1.6;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 1.5em;
+}
+
+
+.navbar{
+    background-color: burlywood;
+}
+
+.nav-link{
+    color: black !important;
+}
+
+.nav-link:hover{
+    background-color: #8b8b8b;
+    font-weight: lighter;
+}
+
+.jumbotron{
+    background-image: url(img/barber.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: azure;
+    text-shadow: 0 0 6px #111;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+h2{
+    background-color: burlywood;
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+    margin-bottom: 0;
+}
+
+
+
+.nosotros{
+    height: 600px;
+    margin-bottom: 0;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.nosotros .row{
+    height: 350px;
+}
+
+
+.nright h3{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.nright p{
+    color: #fff;
+}
+
+.item{
+    height: 350px;
+    background-color: #8b8b8b;
+    border: 5px solid black;
+    background-position: center;
+    background-size: cover;
+}
+
+.item1{
+    background-image: url(img/cortehombre.jpg);
+}
+
+.item2{
+    background-image: url(img/niño.jpg);
+}
+
+.item3{
+    background-image: url(img/barba.jpg);
+}
+
+.item4{
+    background-image: url(img/client1.jpg);
+}
+
+.item5{
+    background-image: url(img/client2.jpg);
+}
+
+.item6{
+    background-image: url(img/client3.jpg);
+}
+
+.item7{
+    background-image: url(img/client4.jpg);
+}
+
+.item8{
+    background-image: url(img/client5.jpg)
+}
+
+
+.content {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.logo {
+    text-align: center;
+    font-size: 3em;
+}
+
+.logo span {
+    color: #096f88;
+}
+
+.contact-wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.contact-wrapper > * {
+    padding: 1em;
+}
+
+.contact-form {
+    background: #222222;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form label {
+    display: block;
+}
+
+.contact-form form p {
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid #096f88;
+}
+
+.contact-form form button {
+    background: #096f88;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: #096f88;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+
+
+.container.servicios{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+
+}
+
+.card{
+    background-color: blanchedalmond;
+}
+
+.card h4,p{
+    color: #474747;
+    text-align: center;
+
+}
+
